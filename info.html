@@ -1,0 +1,133 @@
+<!doctype html><html lang="en" dir="ltr"><head> 
+  <meta charset="utf-8"> 
+  <title>Connect with FARMAN ALI</title> 
+  <link rel="stylesheet" href="style.css"> 
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script> 
+ <style type="text/css" id="dcoder_stylesheet">@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background: linear-gradient(375deg, #1cc7d0, #2ede98);
+}
+::selection{
+  color: #fff;
+  background: #1cc7d0;
+}
+.wrapper{
+  height: 1000px;
+  width: 820px;
+  position: relative;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+.wrapper .card{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+  background: #fff;
+  border-radius: 15px;
+  transform: translateY(0deg);
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+  transition: transform 0.7s cubic-bezier(0.4,0.2,0.2,1);
+}
+.wrapper:hover > .front-face{
+  transform: rotateY(-180deg);
+}
+.wrapper .card img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.wrapper .back-face{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  transform: rotateY(180deg);
+}
+.wrapper:hover > .back-face{
+  transform: rotateY(0deg);
+}
+.wrapper .back-face img{
+  height: 350px;
+  width: 350px;
+  padding: 5px;
+  border-radius: 50%;
+  background: linear-gradient(375deg, #1cc7d0, #2ede98);
+}
+.wrapper .back-face .info{
+  text-align: center;
+}
+.back-face .info .title{
+  font-size: 40px;
+  font-weight: 600;
+ } 
+ .back-face .bio{
+  font-size: 30px;
+  font-weight: 400;
+ } 
+.back-face ul{
+  display: flex;
+ 
+}
+.back-face ul a{
+  display: block;
+  width: 110px;
+  height: 110px;
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  margin: 0 25px;
+  line-height: 120px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  background: linear-gradient(375deg, #1cc7d0, #2ede98);
+  transition: all 0.5s ease;
+}
+.back-face ul a:hover{
+  color: #1cc7d0;
+  border-color: #1cc7d0;
+  background: linear-gradient(375deg, transparent, transparent);
+}</style></head> 
+ <body> 
+  <div class="wrapper"> 
+   <div class="card front-face"> 
+    <img src="2.jpg"> 
+   </div> 
+   <div class="card back-face"> 
+    <img src="1.png"> 
+    <div class="info"> 
+     <div class="title">
+       SYED FARMAN ALI 
+     </div> 
+    </div> 
+    <div class="bio">
+      (Student) 
+     <br>Internationalism 
+    </div> 
+    <ul> 
+     <a href="https://www.facebook.com/syed.farman.1232"><i class="fab fa-facebook-f "></i></a> 
+     <a href="https://www.instagram.com/syeedfarmanali"><i class="fab fa-instagram "></i></a> 
+     <a href="https://youtube.com/channel/UC5-PX8q_dtJeh-_5UqJxn_A"><i class="fab fa-youtube  "> </i></a> 
+    </ul> 
+    <ul> 
+     <a href="https://www.snapchat.com/add/farmanali900"><i class="fab fa-snapchat "></i></a> 
+     <a href="https://wa.me/+916005943382"><i class="fab fa-whatsapp "></i></a> 
+     <a href="https://github.com/FARMAN9"><i class="fab fa-github "></i></a> 
+    </ul>
+   </div> 
+  </div> 
+ 
+</body></html>
